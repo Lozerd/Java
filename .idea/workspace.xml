@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c09baeb-ccaf-402c-b133-f19d5065d0e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Labs/JavaClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Manifacture/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Manifacture/Lab4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Manifacture/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Manifacture/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Manifacture/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Manifacture.Lab4">
     <configuration name="JavaClass" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Labs.JavaClass" />
       <module name="Java" />
@@ -51,6 +50,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Manifacture.Lab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Manifacture.Lab4" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Manifacture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JavaClass" />
+      <item itemvalue="Application.Manifacture.Lab4" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Manifacture.Lab4" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,11 +81,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651936403745</updated>
-      <workItem from="1651936405093" duration="1505000" />
+      <workItem from="1651936405093" duration="4690000" />
     </task>
+    <task id="LOCAL-00001" summary="init project">
+      <created>1651937922055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651937922055</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
   </component>
 </project>
