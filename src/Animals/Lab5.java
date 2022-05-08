@@ -9,6 +9,5 @@ public class Lab5 {
         ourcat.sleep();
         String spokenString = ourcat.speak("Play with me");
         System.out.println(spokenString);
-
     }
 }

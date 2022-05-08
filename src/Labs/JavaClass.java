@@ -30,6 +30,4 @@ public class JavaClass {
         System.out.print("Hello World!");
         // Output will be MikhailRoman\nHello World!
     }
-
-
 }
