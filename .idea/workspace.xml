@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c09baeb-ccaf-402c-b133-f19d5065d0e1" name="Changes" comment="CyclesClass">
-      <change afterPath="$PROJECT_DIR$/src/MyArrays/ArraysClass.java" afterDir="false" />
+    <list default="true" id="1c09baeb-ccaf-402c-b133-f19d5065d0e1" name="Changes" comment="ArraysClass">
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/Sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="Animals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArraysClass">
+  <component name="RunManager" selected="Application.Sorting">
     <configuration name="ArraysClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyArrays.ArraysClass" />
       <module name="Java" />
@@ -100,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.Sorting" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conversions.TypeConversion" />
       <module name="Java" />
@@ -113,34 +126,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VariablesClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Variables.VariablesClass" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Variables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.JavaClass" />
       <item itemvalue="Application.ArraysClass" />
+      <item itemvalue="Application.Sorting" />
       <item itemvalue="Application.ConditionalStatements" />
       <item itemvalue="Application.CyclesClass" />
       <item itemvalue="Application.TypeConversion" />
-      <item itemvalue="Application.VariablesClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.ArraysClass" />
         <item itemvalue="Application.CyclesClass" />
         <item itemvalue="Application.ConditionalStatements" />
         <item itemvalue="Application.TypeConversion" />
-        <item itemvalue="Application.VariablesClass" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +158,7 @@
       <workItem from="1652067315814" duration="3732000" />
       <workItem from="1652097592476" duration="6899000" />
       <workItem from="1652105319327" duration="5765000" />
-      <workItem from="1652121223590" duration="4265000" />
+      <workItem from="1652121223590" duration="8958000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1651937922055</created>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652111332372</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ArraysClass">
+      <created>1652126070379</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652126070379</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +233,8 @@
     <MESSAGE value="refactor.&#10;Conversions package" />
     <MESSAGE value="ConditionalStatements" />
     <MESSAGE value="CyclesClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="CyclesClass" />
+    <MESSAGE value="ArraysClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArraysClass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,8 +244,23 @@
           <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/Sorting.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/Sorting.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="arr[i]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java$CyclesClass.ic" NAME="CyclesClass Coverage Results" MODIFIED="1652111210349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
