@@ -15,7 +15,6 @@ public class JavaClass {
             } else {
                 System.out.println(this.customName);
             }
-
         }
     }
 
