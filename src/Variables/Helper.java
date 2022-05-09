@@ -2,35 +2,35 @@ package Variables;
 
 public class Helper {
 
-    public static Byte[] getByteLimitsArray() {
-        return new Byte[]{Byte.MIN_VALUE, Byte.MAX_VALUE};
+    public static byte[] getByteLimitsArray() {
+        return new byte[]{Byte.MIN_VALUE, Byte.MAX_VALUE};
     }
 
-    public static Short[] getShortLimitsArray() {
-        return new Short[]{Short.MIN_VALUE, Short.MAX_VALUE};
+    public static short[] getShortLimitsArray() {
+        return new short[]{Short.MIN_VALUE, Short.MAX_VALUE};
     }
 
-    public static Integer[] getIntegerLimitsArray() {
-        return new Integer[]{Integer.MIN_VALUE, Integer.MAX_VALUE};
+    public static int[] getIntegerLimitsArray() {
+        return new int[]{Integer.MIN_VALUE, Integer.MAX_VALUE};
     }
 
-    public static Long[] getLongLimitsArray() {
-        return new Long[]{Long.MIN_VALUE, Long.MAX_VALUE};
+    public static long[] getLongLimitsArray() {
+        return new long[]{Long.MIN_VALUE, Long.MAX_VALUE};
     }
 
-    public static Float[] getFloatLimitsArray() {
-        return new Float[]{Float.MIN_VALUE, Float.MAX_VALUE};
+    public static float[] getFloatLimitsArray() {
+        return new float[]{Float.MIN_VALUE, Float.MAX_VALUE};
     }
 
-    public static Double[] getDoubleLimitsArray() {
-        return new Double[]{Double.MIN_VALUE, Double.MAX_VALUE};
+    public static double[] getDoubleLimitsArray() {
+        return new double[]{Double.MIN_VALUE, Double.MAX_VALUE};
     }
 
-    public static Character[] getCharLimitsArray() {
-        return new Character[]{Character.MIN_VALUE, Character.MAX_VALUE};
+    public static char[] getCharLimitsArray() {
+        return new char[]{Character.MIN_VALUE, Character.MAX_VALUE};
     }
 
-    public static Boolean[] getBooleanLimitsArray() {
-        return new Boolean[]{Boolean.FALSE, Boolean.TRUE};
+    public static boolean[] getBooleanLimitsArray() {
+        return new boolean[]{Boolean.FALSE, Boolean.TRUE};
     }
 }
