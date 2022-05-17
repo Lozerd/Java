@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c09baeb-ccaf-402c-b133-f19d5065d0e1" name="Changes" comment="ArraysClass">
-      <change afterPath="$PROJECT_DIR$/src/ArraySorting/SortArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1c09baeb-ccaf-402c-b133-f19d5065d0e1" name="Changes" comment="jdk version change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraySorting/SortArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySorting/SortArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -217,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652126070379</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="jdk version change">
+      <created>1652752607654</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652752607654</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +248,8 @@
     <MESSAGE value="ConditionalStatements" />
     <MESSAGE value="CyclesClass" />
     <MESSAGE value="ArraysClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArraysClass" />
+    <MESSAGE value="jdk version change" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdk version change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
