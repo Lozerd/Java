@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c09baeb-ccaf-402c-b133-f19d5065d0e1" name="Changes" comment="jdk version change">
+    <list default="true" id="1c09baeb-ccaf-402c-b133-f19d5065d0e1" name="Changes" comment="SortArrays.java">
+      <change afterPath="$PROJECT_DIR$/src/Dimensions/DimensionalArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraySorting/SortArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraySorting/SortArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,26 +58,13 @@
       <recent name="Animals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortArrays">
+  <component name="RunManager" selected="Application.Dimensions.DimensionalArrays">
     <configuration name="ArraysClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyArrays.ArraysClass" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MyArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConditionalStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Statements.ConditionalStatements" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Statements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +81,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dimensions.DimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dimensions.DimensionalArrays" />
+      <module name="Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,19 +127,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.JavaClass" />
+      <item itemvalue="Application.Dimensions.DimensionalArrays" />
       <item itemvalue="Application.SortArrays" />
       <item itemvalue="Application.ArraysClass" />
       <item itemvalue="Application.Sorting" />
-      <item itemvalue="Application.ConditionalStatements" />
       <item itemvalue="Application.CyclesClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dimensions.DimensionalArrays" />
         <item itemvalue="Application.SortArrays" />
         <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.ArraysClass" />
         <item itemvalue="Application.CyclesClass" />
-        <item itemvalue="Application.ConditionalStatements" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652752607654</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="SortArrays.java">
+      <created>1652754377982</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652754377982</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +250,8 @@
     <MESSAGE value="CyclesClass" />
     <MESSAGE value="ArraysClass" />
     <MESSAGE value="jdk version change" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdk version change" />
+    <MESSAGE value="SortArrays.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="SortArrays.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -274,6 +276,7 @@
     <watches-manager>
       <configuration name="Application">
         <watch expression="arr[i]" language="JAVA" />
+        <watch expression="matrixC[i][j] + matrixD[i][j]" />
       </configuration>
     </watches-manager>
   </component>
